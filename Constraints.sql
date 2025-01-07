@@ -48,6 +48,7 @@ unique key (headquarters_phone_number)
 alter table companies
 change column company_name company_name varchar(255) not null;
 
+/* Modify */
 alter table companies
 modify company_name varchar(255) null;
 
